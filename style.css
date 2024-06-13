@@ -232,7 +232,9 @@ nav ul div li {
     .block_text {
         min-width: 300px;
     }
+
 }
+
 /* block section ends  */
 /* main section begins */
 main {
@@ -316,10 +318,12 @@ main>p {
     .main_intro {
         gap: 40px;
     }
+
     .main_intro .intro {
         width: 120px;
     }
 }
+
 /* main section ends */
 /* extra blocks section begins   */
 .ex-block {
@@ -473,6 +477,7 @@ footer h1 {
     font-size: 40px;
     font-weight: 600;
     color: white;
+    text-align: center;
 }
 
 footer .button {
@@ -510,6 +515,15 @@ footer .button .neutral:hover {
     border: 2px solid white;
 }
 
+@media screen and (max-width:720px) {
+    footer h1 {
+        padding-top: 20px;
+    }
+
+footer {
+    gap: 30px;
+}
+}
 /* footer section ends */
 /* social media section begins */
 .social_media {
@@ -677,7 +691,6 @@ footer .button .neutral:hover {
     .copy_right {
         flex-direction: row;
         padding: 0px 10px;
-        
     }
 
     .copy_left ul {
